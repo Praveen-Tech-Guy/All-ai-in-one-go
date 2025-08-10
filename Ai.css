@@ -33,7 +33,7 @@
     inset: 0 0 0 0;
     transform: 
         rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-        translateZ(400px);
+        translateZ(350px);
 }
 .banner .slider .item img{
     width: 100%;
@@ -135,8 +135,8 @@
 }
 .button-ai{
     position: absolute;
-    top: 75%;
-    left: 47%;
+    top: 77%;
+    left: 48.5%;
     z-index: 2;
 }
 .click{
@@ -150,3 +150,4 @@
   box-shadow: 2px 4px 15px blue inset;
   cursor: pointer;
 }
+
